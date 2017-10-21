@@ -1659,6 +1659,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lib.dll": {}
+        }
       }
     }
   },
@@ -5604,12 +5614,18 @@
         "xunit.runner.visualstudio.2.2.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "lib/1.0.0": {
+      "type": "project",
+      "path": "../lib/lib.csproj",
+      "msbuildProject": "../lib/lib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NET.Test.Sdk >= 15.3.0-preview-20170628-02",
       "Microsoft.NETCore.App >= 2.0.0",
+      "lib >= 1.0.0",
       "xunit >= 2.2.0",
       "xunit.runner.visualstudio >= 2.2.0"
     ]
@@ -5643,7 +5659,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\USER\\aula\\csharp\\tdd-csharp\\lib\\lib.csproj": {
+              "projectPath": "C:\\Users\\USER\\aula\\csharp\\tdd-csharp\\lib\\lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

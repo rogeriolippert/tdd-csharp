@@ -11,3 +11,5 @@ C:\Users\USER\aula\csharp\tdd-csharp\test\obj\Debug\netcoreapp2.0\test.AssemblyI
 C:\Users\USER\aula\csharp\tdd-csharp\test\obj\Debug\netcoreapp2.0\test.AssemblyInfo.cs
 C:\Users\USER\aula\csharp\tdd-csharp\test\obj\Debug\netcoreapp2.0\test.dll
 C:\Users\USER\aula\csharp\tdd-csharp\test\obj\Debug\netcoreapp2.0\test.pdb
+C:\Users\USER\aula\csharp\tdd-csharp\test\bin\Debug\netcoreapp2.0\lib.dll
+C:\Users\USER\aula\csharp\tdd-csharp\test\bin\Debug\netcoreapp2.0\lib.pdb
