@@ -7,5 +7,8 @@ namespace lib
         public int Soma(int a, int b){
             return a + b;
         }
+        public int Soma(){
+            return 0;
+        }
     }
 }
